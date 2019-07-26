@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 
 <head>
 	<meta charset="utf-8">
-	<title>Testes </title>
+	<title>Formulario de inscrição</title>
+	<meta name="author" content="">
+	<meta name="description" content="">
+	<meta name="biewport" content="width=device-width, initial-sacale=1">
 </head>
+
 <body>
+	<p>FORMULÁRIO DE INSCRIÇÃO DE COMPETIDORES</p>
 
-<nav class="container text-blue">
-	<li><h4>Calculadora</h4></li>
-	<li><h4>Meu Perfil</h4></li>
-</nav>
+	<form action="script.php" method="post">
+		<p>Seu nome :<input type="text" name="name"></p>
+		<p>Sua idade :<input type="text" name="idade"></p>
+		<p><input type="submit" value="Enviar dados do Competidor"></p>
+		
+	</form>
 
-
-
-echo Soma();
 </body>
 </html>
